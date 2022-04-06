@@ -4,14 +4,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 
 public class UchiruTest3 {
     WebDriver driver;
-    WebDriverWait webDriverWait;
-    Actions actions;
     private final static String UCHIRU_BASE_URL = "https://uchi.ru/signin/main/new";
 
     @BeforeAll
