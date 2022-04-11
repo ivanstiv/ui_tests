@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Работа со страницей первого этапа регистрации родителя",
+    "children" : [ {
+      "name" : "Регистрация родителя",
+      "children" : [ {
+        "name" : "parentRegisterTest()",
+        "uid" : "cb116b7ba3d4e68",
+        "parentUid" : "53a02c5c4c7668abde74f577d325dadd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649703861392,
+          "stop" : 1649703870068,
+          "duration" : 8676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53a02c5c4c7668abde74f577d325dadd"
+    } ],
+    "uid" : "e46f6d0bac95ad2a2efcd06dcd774f9f"
+  } ]
+}
