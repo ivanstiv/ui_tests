@@ -1,0 +1,11 @@
+[ {
+  "uid" : "cb116b7ba3d4e68",
+  "name" : "parentRegisterTest()",
+  "time" : {
+    "start" : 1649703861392,
+    "stop" : 1649703870068,
+    "duration" : 8676
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
