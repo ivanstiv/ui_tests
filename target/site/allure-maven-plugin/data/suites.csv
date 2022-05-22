@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Apr 11 22:04:21 MSK 2022","Mon Apr 11 22:04:30 MSK 2022","8676","","com.geekbrains.homework6.UchiruTest3","","com.geekbrains.homework6.UchiruTest3","parentRegisterTest","parentRegisterTest()",""

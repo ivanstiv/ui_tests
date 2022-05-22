@@ -1,5 +1,6 @@
 package com.geekbrains.homework6;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +18,7 @@ public class SuccessParentSignUp extends BaseView {
     @FindBy(xpath = ADD_CHILD_TITLE_LOCATOR)
     public WebElement addChildTitleLocator;
 
+    @Step("Проверить наличие заголовка на втором этапе регистрации")
     public void checkTitle() {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(ADD_CHILD_TITLE_LOCATOR)));
         Assertions.assertTrue(addChildTitleLocator.isDisplayed());

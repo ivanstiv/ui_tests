@@ -1,0 +1,47 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "roman-Spin-SP513-53N",
+    "children" : [ {
+      "name" : "15236@roman-Spin-SP513-53N.main(1)",
+      "children" : [ {
+        "name" : "parentRegisterTest()",
+        "uid" : "cb116b7ba3d4e68",
+        "parentUid" : "6020ca78f7fa126e71bd46f3ecf9ce00",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649703861392,
+          "stop" : 1649703870068,
+          "duration" : 8676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6020ca78f7fa126e71bd46f3ecf9ce00"
+    } ],
+    "uid" : "a120dd0745510764b305581dcaa093d1"
+  }, {
+    "name" : "MacBook-Pro-Roman.local",
+    "children" : [ {
+      "name" : "26670@MacBook-Pro-Roman.local.main(1)",
+      "children" : [ {
+        "name" : "parentRegisterTest()",
+        "uid" : "fdf94f19820ed482",
+        "parentUid" : "a5b2db6cfbfb29e15b26654798485ca8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649222134983,
+          "stop" : 1649222142616,
+          "duration" : 7633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5b2db6cfbfb29e15b26654798485ca8"
+    } ],
+    "uid" : "01d5684f35de1e3b1bc605804abbe07a"
+  } ]
+}
